@@ -1,0 +1,35 @@
+﻿Build started 2018/10/19 15:49:29.
+     1>Project "C:\01_OpenGL\vs2013_project\RubiksCube\RubiksCube\RubiksCube.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\RubiksCube.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt RubiksCubeDlg.cpp
+         RubiksCubeDlg.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\01_OpenGL\vs2013_project\RubiksCube\Release\RubiksCube.exe" /INCREMENTAL:NO /NOLOGO opengl32.lib glfw3.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\01_OpenGL\vs2013_project\RubiksCube\Release\RubiksCube.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\01_OpenGL\vs2013_project\RubiksCube\Release\RubiksCube.lib" /MACHINE:X86 /SAFESEH Release\RubiksCube.res
+         Release\coordinate_systems_depth.obj
+         Release\glad.obj
+         Release\RubiksCube.obj
+         Release\RubiksCubeDlg.obj
+         Release\stdafx.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>glfw3.lib(context.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glfw3.lib(context.obj)' or at 'C:\01_OpenGL\vs2013_project\RubiksCube\Release\vc120.pdb'; linking object as if no debug info
+     1>glfw3.lib(init.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glfw3.lib(init.obj)' or at 'C:\01_OpenGL\vs2013_project\RubiksCube\Release\vc120.pdb'; linking object as if no debug info
+     1>glfw3.lib(input.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glfw3.lib(input.obj)' or at 'C:\01_OpenGL\vs2013_project\RubiksCube\Release\vc120.pdb'; linking object as if no debug info
+     1>glfw3.lib(monitor.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'C:\01_OpenGL\vs2013_project\RubiksCube\Release\vc120.pdb'; linking object as if no debug info
+     1>glfw3.lib(vulkan.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glfw3.lib(vulkan.obj)' or at 'C:\01_OpenGL\vs2013_project\RubiksCube\Release\vc120.pdb'; linking object as if no debug info
+     1>glfw3.lib(window.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glfw3.lib(window.obj)' or at 'C:\01_OpenGL\vs2013_project\RubiksCube\Release\vc120.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glfw3.lib(win32_init.obj)' or at 'C:\01_OpenGL\vs2013_project\RubiksCube\Release\vc120.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glfw3.lib(win32_joystick.obj)' or at 'C:\01_OpenGL\vs2013_project\RubiksCube\Release\vc120.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glfw3.lib(win32_monitor.obj)' or at 'C:\01_OpenGL\vs2013_project\RubiksCube\Release\vc120.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glfw3.lib(win32_time.obj)' or at 'C:\01_OpenGL\vs2013_project\RubiksCube\Release\vc120.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_tls.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glfw3.lib(win32_tls.obj)' or at 'C:\01_OpenGL\vs2013_project\RubiksCube\Release\vc120.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glfw3.lib(win32_window.obj)' or at 'C:\01_OpenGL\vs2013_project\RubiksCube\Release\vc120.pdb'; linking object as if no debug info
+     1>glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glfw3.lib(wgl_context.obj)' or at 'C:\01_OpenGL\vs2013_project\RubiksCube\Release\vc120.pdb'; linking object as if no debug info
+     1>glfw3.lib(egl_context.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glfw3.lib(egl_context.obj)' or at 'C:\01_OpenGL\vs2013_project\RubiksCube\Release\vc120.pdb'; linking object as if no debug info
+         RubiksCube.vcxproj -> C:\01_OpenGL\vs2013_project\RubiksCube\Release\RubiksCube.exe
+     1>Done Building Project "C:\01_OpenGL\vs2013_project\RubiksCube\RubiksCube\RubiksCube.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.91
